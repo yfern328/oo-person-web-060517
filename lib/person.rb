@@ -2,7 +2,7 @@ require "pry"
 
 class Person
 
-  attr_accessor :bank_account, :hygiene
+  attr_accessor :bank_account, :hygiene, :happiness
   attr_reader :name
 
   def initialize(name)
@@ -30,10 +30,6 @@ class Person
     else
       @happiness = happiness_number
     end
-  end
-
-  def happiness
-    @happiness
   end
 
   def happy?
