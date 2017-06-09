@@ -1,5 +1,3 @@
-require "pry"
-
 class Person
 
   attr_accessor :bank_account, :hygiene, :happiness
