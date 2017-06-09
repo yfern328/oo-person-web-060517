@@ -20,13 +20,13 @@ class Person
     end
   end
 
-  def happiness=(happiness_number)
-    if happiness_number > 10
+  def happiness=(happiness)
+    if happiness > 10
       @happiness = 10
-    elsif happiness_number < 0
+    elsif happiness < 0
       @happiness = 0
     else
-      @happiness = happiness_number
+      @happiness = happiness
     end
   end
 
